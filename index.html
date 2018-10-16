@@ -5,131 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
     <title>Flashcard Site</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Flashcards using JQuery!</h1>
+    
+        <header class="bg-primary">
+            <h1>Flashcards using JQuery</h1>
         </header>
-
+        <div class="container">
+                
         <div class="mainContent">
             <div class="row">
-                    <div class="card col-md-5 word" id="word1">Javascript(JS)</div>
-                    <div class="card col-md-5 def" id="def1">Def</div>
-            </div>
+                    <div class="card col-md-2 word" id="word1">Javascript</div>
+                    <div class="card col-md-9 def" id="def1">JavaScript is a programming language used to make web pages interactive. Like HTML and CSS, you do not need to install anything to begin writing JavaScript or see it run on your users' computers. All modern browsers support JavaScript which means JavaScript that you write for your web pages will automatically run when your visitors load your web page in their browsers. In fact, JavaScript is the only scripting language that all browsers support so if you want a page to have dynamic content, learning JavaScript is a must.
+                    </div>
+                </div>
             <div class="row">
-                <div class="card col-md-5 word" id="word">Operators</div>
-                <div class="card col-md-5 def" id="def">Def</div>
+                <div class="card col-md-2 word" id="word2">Operators</div>
+                <div class="card col-md-9 def" id="def2">JavaScript includes operators as in other languages. An operator performs some operation on single or multiple operands (data value) and produces a result. For example 1 + 2, where + sign is an operator and 1 is left operand and 2 is right operand. + operator adds two numeric values and produces a result which is 3 in this case.</div>
+            </div>
+       
+
+            <div class="row">
+                <div class="card col-md-2 word" id="word3">Variables</div>
+                <div class="card col-md-9 def" id="def3">Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime. JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. You can assign a value to a variable using equal to (=) operator when you declare it or before using it.</div>
             </div>
 
             <div class="row">
-                <div class="card col-md-5 word" id="word">Variables</div>
-                <div class="card col-md-5 def" id="def">Def</div>
-            </div>
-
-            <div class="row">
-                <div class="card col-md-5 word" id="word">Varaiable naming Conventions</div>
-                <div class="card col-md-5 def" id="def">Def</div>
+                <div class="card col-md-2 word" id="word4">Varaiable naming Conventions</div>
+                <div class="card col-md-9 def" id="def4">Coding conventions are style guidelines for programming. They typically cover: Naming and declaration rules for variables and functions. Rules for the use of white space, indentation, and comments. Programming practices and principles</div>
             </div>
             
             <div class="row">
-                    <div class="card col-md-5 word" id="word">Functions</div>
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word5">Functions</div>
+                    <div class="card col-md-9 def" id="def5">A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).</div>
                 </div>
                 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Methods</div>                        
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word6">Methods</div>                        
+                    <div class="card col-md-9 def" id="def6">JavaScript methods are actions that can be performed on objects. A JavaScript method is a property containing a function definition. </div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Arguments</div>                            
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word7">Arguments</div>                            
+                    <div class="card col-md-9 def" id="def7">The arguments object is a local variable available within all non-arrow functions. You can refer to a function's arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry's index at 0.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Parameters</div>                            
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word8">Parameters</div>                            
+                    <div class="card col-md-9 def" id="def8">A function can have one or more parameters, which will be supplied by the calling code and can be used inside a function. JavaScript is a dynamic type scripting language, so a function parameter can have value of any data type.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Return</div>                            
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word9">Return</div>                            
+                    <div class="card col-md-9 def" id="def9">Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined by default.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Chaining methods</div>              
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word10">Chaining methods</div>              
+                    <div class="card col-md-9 def" id="def10">Chaining Methods, also known as Cascading, refers to repeatedly calling one method after another on an object, in one continuous line of code. This technique abounds in jQuery and other JavaScript libraries and it is even common in some JavaScript native methods.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Strings</div>                  
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word11">Strings</div>                  
+                    <div class="card col-md-9 def" id="def11">String is a primitive data type in JavaScript. A string is textual content. It must be enclosed in single or double quotation marks.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Booleans</div>                          
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word12">Booleans</div>                          
+                    <div class="card col-md-9 def" id="def12">Boolean is a primitive data type in JavaScript. Boolean can have only two values, true or false. It is useful in controlling program flow using conditional statements like if..else, switch, while, do..while.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Undefined</div>                
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word13">Undefined</div>                
+                    <div class="card col-md-9 def" id="def13">Undefined is also a primitive value in JavaScript. A variable or an object has an undefined value when no value is assigned before using it. So you can say that undefined means lack of value or unknown value.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Nan</div>                          
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word14">Nan</div>                          
+                    <div class="card col-md-9 def" id="def14">The NaN property represents "Not-a-Number" value. This property indicates that a value is not a legal number. The NaN property is the same as the Number.Nan property. Tip: Use the isNaN() global function to check if a value is a NaN value.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Escape</div>                  
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word15">Escape</div>                  
+                    <div class="card col-md-9 def" id="def15">The escape() function encodes a string. This function makes a string portable, so it can be transmitted across any network to any computer that supports ASCII characters. This function encodes special characters, with the exception of: * @ - _ + . /</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Alert</div>              
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word16">Alert</div>              
+                    <div class="card col-md-9 def" id="def16">The alert() method displays an alert box with a specified message and an OK button. An alert box is often used if you want to make sure information comes through to the user.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Comments</div>                 
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word17">Comments</div>                 
+                    <div class="card col-md-9 def" id="def17">JavaScript comments can be used to explain JavaScript code, and to make it more readable. JavaScript comments can also be used to prevent execution, when testing alternative code.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">jQuery</div>                
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word18">jQuery</div>                
+                    <div class="card col-md-9 def" id="def18">jQuery is a concise and fast JavaScript library that can be used to simplify event handling, HTML document traversing, Ajax interactions and animation for speedy website development. jQuery simplifies the HTML's client-side scripting, thus simplifying Web 2.0 applications development.</div>
                 </div>
 
                 <div class="row">
-                    <div class="card col-md-5 word" id="word">Attributes</div>                
-                    <div class="card col-md-5 def" id="def">Def</div>
+                    <div class="card col-md-2 word" id="word19">Attributes</div>                
+                    <div class="card col-md-9 def" id="def19">The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet. However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.</div>
+                </div> 
                 </div>
-
-
-                                    
-                
-                
-                
-                
-              
-                
-               
-                
-                
-                
-               
-                
-                
-               
-               
-        </div>
     </div>
-    
 </body>
 </html>

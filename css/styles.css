@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.card {
+    font-size: 1.4rem;
+    text-align: center;
+    min-height: 60px;
+    padding: 30px;
+    margin: 20px;
+}

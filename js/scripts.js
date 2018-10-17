@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $("div.word").click(function(){
-        $(this).next().show();   
+        $(this).next().fadeIn();   
     });
     $("div.def").click(function(){
-        $(this).hide();
+        $(this).fadeOut();
     });
 
 });
